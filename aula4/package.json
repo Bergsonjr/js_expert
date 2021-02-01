@@ -1,0 +1,20 @@
+{
+  "name": "aula4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src",
+    "test": "npx mocha --parallel test/",
+    "test:cov": "npx nyx --check-coverage --instrument --reporter=html --reporter npm test",
+    "test:dev": "npx mocha -w --exit test/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0",
+    "sinon": "^9.2.4"
+  }
+}
